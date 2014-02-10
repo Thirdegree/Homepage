@@ -13,7 +13,8 @@
 
 html, body {
     padding: 0;
-    margin: 0
+    margin: 0;
+    font-family: Helvetica, sans-serif
 }
 
 body {
@@ -28,3 +29,47 @@ body {
     font-size: 300%;
     
 }
+
+#navigation {
+    width: 33%;
+    height: 55px;
+    font-size: 16px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display:table;
+    text-align: center
+}
+
+
+
+#navigation a {
+    text-decoration: none;
+    display: block;
+    height: 55px;
+    font-size: 30px;
+    color: #ffffff
+}
+
+#navigation ul {
+    height:auto;
+    padding: 8px 0px;
+    margin:0px;
+}
+
+
+
+#navigation li {
+    display: inline;
+    padding: 16px 16px;
+}
+
+
+
+#navigation span {
+    float:left;
+    width: 33%;
+    line-height: 55px;
+    display: block;
+}
+
